@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    tools:context=".userProfile">
+
+    <ImageView
+        android:id="@+id/userimageView"
+        android:layout_width="409dp"
+        android:layout_height="266dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/nameView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginStart="177dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="176dp"
+        android:fontFamily="@font/abeezee"
+        android:text="User Name"
+        android:textColor="#ED232222"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/userimageView" />
+
+    <TextView
+        android:id="@+id/emailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="email"
+        app:layout_constraintEnd_toEndOf="@+id/nameView"
+        app:layout_constraintStart_toStartOf="@+id/nameView"
+        app:layout_constraintTop_toBottomOf="@+id/nameView" />
+
+    <TextView
+        android:id="@+id/phoneNoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="phone no"
+        app:layout_constraintEnd_toEndOf="@+id/emailView"
+        app:layout_constraintStart_toStartOf="@+id/emailView"
+        app:layout_constraintTop_toBottomOf="@+id/emailView" />
+
+    <Button
+        android:id="@+id/sendReqbutton"
+        android:layout_width="275dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="161dp"
+        android:background="@drawable/btnselecter"
+        android:backgroundTint="#FF477056"
+        android:text="Send Request"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNoView" />
+
+    <Button
+        android:id="@+id/declineReqbutton"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btnselecter"
+        android:text="Decline Request"
+        app:layout_constraintEnd_toEndOf="@+id/sendReqbutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/sendReqbutton"
+        app:layout_constraintTop_toBottomOf="@+id/sendReqbutton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

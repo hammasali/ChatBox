@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/aboutusradius">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="@string/about_us"
+        app:titleTextColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/aboutUsTextView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/anton"
+        android:overScrollMode="ifContentScrolls"
+        android:scrollbars="vertical"
+        android:text=" Welcome to Chat Box.Inc, your number one source for all things chat box. We're dedicated to giving you the very best of chat box, with a focus on real time messaging, sending request, quick services.   Founded in 2020 by Hammas Ali, Chat Box.Inc has come a long way from its beginnings in Jhelum. When Hammas Ali first started out, his passion for  &quot;Click it&quot; drove them to  quit day job, do tons of research, etc. so that Chat Box.Inc can offer you more valuable services. We now serve customers all over the world, and are thrilled that we're able to turn our passion into my own website.   I hope you enjoy my products as much as I enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact me.   Sincerely,  Hammas Ali  "
+
+        android:textColor="#BF000000"
+        android:textSize="14sp"
+        android:verticalScrollbarPosition="defaultPosition"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAboutUs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
+
+    <Button
+        android:id="@+id/buttonAboutUs"
+        android:layout_width="230dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/btnselecter"
+        android:backgroundTint="#E2DA4E4E"
+        android:elevation="10dp"
+        android:text="Close"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aboutUsTextView"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

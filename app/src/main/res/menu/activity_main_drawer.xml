@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:menuCategory="secondary"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:menuCategory="secondary"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/logout"
+            android:menuCategory="secondary"
+            android:title="@string/sign_out" />
+
+    </group>
+
+
+    <item
+        android:menuCategory="secondary"
+        android:title="@string/others">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:menuCategory="secondary"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/aboutus"
+                android:icon="@drawable/aboutus"
+                android:menuCategory="secondary"
+                android:title="@string/about_us">
+
+            </item>
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "958480021111",
+    "firebase_url": "https://project-1-7c1db.firebaseio.com",
+    "project_id": "project-1-7c1db",
+    "storage_bucket": "project-1-7c1db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958480021111:android:731125d53b702e566f7872",
+        "android_client_info": {
+          "package_name": "com.example.chatbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958480021111-9gtnjoa4oi43fpo9rvng7avq31aanoo8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatbox",
+            "certificate_hash": "14df1f4f55509799a177914441682ba75a8e2054"
+          }
+        },
+        {
+          "client_id": "958480021111-rn6lo1es5bqnfenvi9r4udtab9boqfh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBwJ9rup5oR7fWl38WR23G32GKjEWxYXQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958480021111-rn6lo1es5bqnfenvi9r4udtab9boqfh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
